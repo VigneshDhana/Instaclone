@@ -1,0 +1,197 @@
+/* Landing */
+*{
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+}
+.land-img{
+  width: 50%;
+  height: 90vh;
+  float: left;
+}
+.land-img img{
+  margin: 5vh 0 0 300px;
+  width: max-content;
+  height: 100%;
+}
+.content{
+  float: right;
+  width: 50%;
+  font: normal normal normal 20px/25px Palatino;
+}
+.text{
+  width: fit-content;
+  margin: 35vh 20% 0 10%;
+  color: #006238;
+}
+.text h1{
+  font-weight: 200;
+}
+.text button{
+  width: 26%;
+  margin-left: 37%;
+  padding: 5px;
+  border: 1px solid #006238;
+  color: #006238;
+  border-radius: 5px;
+  background-color: white;
+}
+
+/* Instaclone Style*/
+
+/* Header */
+
+header{
+  top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+}
+.head{
+  top: 0;
+  display: flex;
+  border-bottom: 1px solid#006238;
+}
+.head .none{
+  min-width: 52%;
+}
+.head .icon{
+  margin-left: 10%;
+  font: normal normal normal 41px/1px Palatino;
+  display: flex;
+  color: #006238;
+}
+.icon img{
+  margin: auto ;
+  width: 40px;
+  height: 40px;
+}
+.cam-icon img {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+.cam-icon{
+  width: 45px;
+  height: 40px;
+  margin: auto 20px;
+}
+
+/* Instaclone Style */
+
+/* Post head */
+
+section{
+  top: 85px;
+  position: relative;
+}
+section .post{
+  height: fit-content;
+  width: 500px;
+  border:1px solid #707070;
+  border-radius: 10px;
+  padding-top: 10px;
+  margin: 10px auto;
+}
+section .post-head{
+  display:flex;
+  height: 60px;
+}
+section .post-head-txt h5{
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+section .post-head-txt p{
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+section .dot{
+  width: 80px;
+  height: 5px;
+  margin-top: 10px;
+}
+section .post-head img{
+  width: 100%;
+  height: 100%;
+}
+section .post-head-txt{
+  width: 450px;
+}
+
+/* Post image */
+
+section .post-image{
+  max-width: 500px;
+  height: max-content;
+  margin: auto;
+}
+section .post-image img{
+  width:100%;
+  height:100%;
+  margin: auto;
+}
+
+/* Post details */
+
+section .detail-icons{
+  display: flex;
+  padding-left: 20px;
+}
+.detail-icons .like-share img{
+  margin: 5px 15px;
+}
+.detail-icons .date{
+  margin-left: 40%;
+}
+.date p{
+  padding: 0;
+}
+.post-details .likes p{
+  margin: -10px 0 0 45px;
+  padding: 0;
+  font: normal normal normal 15px/24px Verdana;
+    letter-spacing: 0px;
+    color: #707070;
+}
+.post-details .description{
+  margin: -10px 0 30px 30px;
+  padding: 0;
+}
+
+/* New Post */
+
+.post-form{
+  width: 500px;
+  height: 200px;
+  margin: 100px auto ;
+  border: 1px solid #707070;
+}
+.post-form .file{
+  border: 1px solid #707070;
+  margin: 20px 25px;
+  width: 450px;
+}
+.post-form button{
+  width: 60px;
+  height: 25px;
+  margin: 10px 220px;
+}
+.post-form .des{
+  margin: 10px 25px;
+  width: 450px;
+}
+.post-form .author{
+  margin: 10px 24.5px;
+  width: 200px;
+}
+.post-form #img{
+  display: none;
+}
+.post-form p{
+  margin: -20px 25px;
+  font-size: small;
+}
+
